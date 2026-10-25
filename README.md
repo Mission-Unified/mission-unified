@@ -105,9 +105,11 @@ CAD, drawings and build files get their own home later.
 |---|---|---|
 | ![](images/platform-indoor.jpg) | ![](images/presentation-3.jpg) | ![](images/team.jpg) |
 
-Mission Unified is **John Obaloluwa Ayodele**, **Divine Ehmoyi Waziri** and **Oluwapelumi
-Temitayo Falade**. The project was supervised by Engr Rexcharles Enyinna Donatus,
-Department of Aerospace Engineering, Air Force Institute of Technology, Kaduna.
+Mission Unified is [John Obaloluwa Ayodele](https://github.com/Official-John),
+[Divine Ehmoyi Waziri](https://github.com/Mr-Gold04) and
+[Oluwapelumi Temitayo Falade](https://github.com/faladeemmanuel55-ai). The project was
+supervised by Engr Rexcharles Enyinna Donatus, Department of Aerospace Engineering, Air
+Force Institute of Technology, Kaduna.
 
 The airframe, the electronics, the CAD, the documentary and the flight testing were the
 work of the three of us. The ground station software is John's and lives in its own
