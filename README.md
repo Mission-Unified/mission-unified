@@ -8,6 +8,10 @@ and works out where each sits on the ground as a latitude and longitude.
 Built as a B.Eng final-year project in the Department of Aerospace Engineering, Faculty of
 Air Engineering, Air Force Institute of Technology, Kaduna.
 
+![The platform driving across the floor on its wheels, propellers still](images/driving.gif)
+
+Same airframe, wheels turning. Lift off and the wheels come with it.
+
 ![The platform: quadcopter and ground chassis as one airframe](images/platform-outdoor.jpg)
 
 ## The documentary
@@ -39,9 +43,28 @@ sends video and telemetry to a ground station with a GPU in it. On the ground:
 All four steps are the software in
 [mission-unified-software](https://github.com/Mission-Unified/mission-unified-software).
 
+![The dashboard reading live ultrasonic distances, vehicle on the bench behind](images/dashboard-live.gif)
+
+Obstacle distances updating as the vehicle moves, with the vehicle itself sitting behind
+the laptop.
+
 | Telemetry | Command overview | Vision |
 |---|---|---|
 | ![](images/dashboard-telemetry.png) | ![](images/dashboard-command.jpg) | ![](images/dashboard-vision.jpg) |
+
+## Where a target actually is
+
+Turning a pixel into a coordinate is geometry, and the geometry is unforgiving: a small
+attitude error multiplies by altitude before it reaches the ground. The maths got worked
+out on a whiteboard before it went into code.
+
+![Whiteboard working: camera angle, slant range and the ground triangle](images/geometry-sketch.jpg)
+
+Then the camera has to be calibrated, because the projection is only as good as the lens
+model behind it. A printed checkerboard, several dozen captures, and the matrix that comes
+out of it ends up in `config/geolocation.py`.
+
+![Calibrating the camera with a printed checkerboard](images/camera-calibration.jpg)
 
 ## Design
 
@@ -54,6 +77,19 @@ airframe, no docking mechanism, no transformation sequence to go wrong mid-missi
 
 ![Isometric view](images/cad-isometric.jpg)
 
+## Building it
+
+It started as a breadboard, a 2WD chassis and a lot of jumper wire.
+
+| | |
+|---|---|
+| ![Bench wiring: motors, drivers, sensors](images/bench-wiring.jpg) | ![Reviewing the drawings](images/design-review.jpg) |
+| ![The flight controller](images/flight-controller.jpg) | ![The sensor head: twin ultrasonics and the camera mount](images/sensor-head.jpg) |
+
+| | |
+|---|---|
+| ![The finished platform from above](images/platform-top.jpg) | ![Out on the grass](images/platform-field.jpg) |
+
 ## Repositories
 
 | Repository | Contents | Licence |
@@ -63,13 +99,11 @@ airframe, no docking mechanism, no transformation sequence to go wrong mid-missi
 
 CAD, drawings and build files get their own home later.
 
-## The build
+## The team
 
 | | | |
 |---|---|---|
 | ![](images/platform-indoor.jpg) | ![](images/presentation-3.jpg) | ![](images/team.jpg) |
-
-## Team
 
 John Obaloluwa Ayodele designed and built the system and wrote the software. Engr
 Rexcharles Enyinna Donatus supervised the project.
@@ -79,7 +113,7 @@ credited here as they join the organization.
 
 ## Licence
 
-Text, photographs and diagrams here are under
+Text, photographs, video stills and diagrams here are under
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Use them anywhere, including
 commercially, as long as you credit Mission Unified. Software carries its own licence in
 its own repository.
