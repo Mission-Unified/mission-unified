@@ -8,7 +8,7 @@ and works out where each sits on the ground as a latitude and longitude.
 Built as a B.Eng final-year project in the Department of Aerospace Engineering, Faculty of
 Air Engineering, Air Force Institute of Technology, Kaduna.
 
-![The platform driving across the floor on its wheels, propellers still](images/driving.gif)
+<img src="images/driving.gif" width="100%" alt="The platform driving across the floor on its wheels, propellers still">
 
 Same airframe, wheels turning. Lift off and the wheels come with it.
 
@@ -43,7 +43,7 @@ sends video and telemetry to a ground station with a GPU in it. On the ground:
 All four steps are the software in
 [mission-unified-software](https://github.com/Mission-Unified/mission-unified-software).
 
-![The dashboard reading live ultrasonic distances, vehicle on the bench behind](images/dashboard-live.gif)
+<img src="images/dashboard-live.gif" width="100%" alt="The dashboard reading live ultrasonic distances, vehicle on the bench behind">
 
 Obstacle distances updating as the vehicle moves, with the vehicle itself sitting behind
 the laptop.
