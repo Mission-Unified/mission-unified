@@ -105,11 +105,13 @@ CAD, drawings and build files get their own home later.
 |---|---|---|
 | ![](images/platform-indoor.jpg) | ![](images/presentation-3.jpg) | ![](images/team.jpg) |
 
-John Obaloluwa Ayodele designed and built the system and wrote the software. Engr
-Rexcharles Enyinna Donatus supervised the project.
+Mission Unified is **John Obaloluwa Ayodele**, **Divine Ehmoyi Waziri** and **Oluwapelumi
+Temitayo Falade**. The project was supervised by Engr Rexcharles Enyinna Donatus,
+Department of Aerospace Engineering, Air Force Institute of Technology, Kaduna.
 
-The documentary, the CAD work and the build were a team effort. Everyone involved is
-credited here as they join the organization.
+The airframe, the electronics, the CAD, the documentary and the flight testing were the
+work of the three of us. The ground station software is John's and lives in its own
+repository.
 
 ## Licence
 
