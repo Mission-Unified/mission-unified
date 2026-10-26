@@ -99,6 +99,12 @@ It started as a breadboard, a 2WD chassis and a lot of jumper wire.
 
 CAD, drawings and build files get their own home later.
 
+## Mission dashboard
+
+![Mission dashboard showing three detected people in a camera frame, with faces blurred](images/dashboard-person-detection.jpg)
+
+The mission dashboard during a person-detection test. The camera frame is on the left, with detection counts, history and statistics on the right. Faces are blurred.
+
 ## The team
 
 | | | |
@@ -114,6 +120,11 @@ Force Institute of Technology, Kaduna.
 The airframe, the electronics, the CAD, the documentary and the flight testing were the
 work of the three of us. The ground station software is John's and lives in its own
 repository.
+
+## Related repositories
+
+- [mission-unified-hardware](https://github.com/Mission-Unified/mission-unified-hardware), CAD renders and flight controller configuration
+- [mission-unified-software](https://github.com/Mission-Unified/mission-unified-software), the software
 
 ## Licence
 
