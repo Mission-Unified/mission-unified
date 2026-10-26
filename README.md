@@ -83,7 +83,7 @@ It started as a breadboard, a 2WD chassis and a lot of jumper wire.
 
 | | |
 |---|---|
-| ![Bench wiring: motors, drivers, sensors](images/bench-wiring.jpg) | ![Reviewing the drawings](images/design-review.jpg) |
+| ![Bench wiring: motors, drivers, sensors](images/bench-wiring.jpg) | ![The assembly in CAD beside the printed engineering drawings](images/design-review.jpg) |
 | ![The flight controller](images/flight-controller.jpg) | ![The sensor head: twin ultrasonics and the camera mount](images/sensor-head.jpg) |
 
 | | |
